@@ -40,6 +40,7 @@ window.onStream = () => { // H A N D L E   M E S S A G E S   F R O M   T W I T C
     //let modStatus = tags["mod"];
     //let subStatus = tags["subscriber"];
     //if (levelCheck(subCheck, modStatus, subStatus)) return;
+    console.log(message);
     if (!tags["emotes"]) {
       let strx = game.settings.get("streamMod", "streamUN")
       if (self) return;
