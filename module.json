@@ -1,6 +1,6 @@
 {
   "name": "streamMod",
-  "title": "Skelton's Foundry Stream Module",
+  "title": "Foundry Stream Module",
   "description": "Implements two-way communication between Foundry VTT and Twitch, allowing for two-way chat plus adds dice rolling requests, a tabbed chat window, a separate dice engine for just for viewers, event handling and several moderation commands directly into Foundry itself, bringing your streamed game to the next level of interactivity! Fork of Foundry Stream Module",
   "author": "CritsAndCode",
   "version": "0.3.1",
