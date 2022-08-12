@@ -5,11 +5,11 @@
 import { localize } from "./utils.js";
 
 function getSetting(key) {
-    return game.settings.get("streamMod", key);
+    return game.settings.get("skeltonsStreamMod", key);
 }
 
 function registerSetting(setting) {
-    return game.settings.register("streamMod", setting.key, setting.options);
+    return game.settings.register("skeltonsStreamMod", setting.key, setting.options);
 }
 
 function registerSettings() { // R E G I S T E R   M O D U L E   S E T T I N G S
@@ -49,7 +49,7 @@ function registerSettings() { // R E G I S T E R   M O D U L E   S E T T I N G S
                 onChange: (value) => {
                     let newvalue = value.toLowerCase();
                     if (newvalue.includes("oauth:")) {
-                        game.settings.set("streamMod", "streamAuth", newvalue.obfs(13))
+                        game.settings.set("skeltonsStreamMod", "streamAuth", newvalue.obfs(13))
                     } else return;
                 }
             }
