@@ -1,9 +1,9 @@
 {
-  "name": "streamMod",
-  "title": "Foundry Stream Module",
+  "name": "skeltonsStreamMod",
+  "title": "Skelton's Foundry Stream Module",
   "description": "Implements two-way communication between Foundry VTT and Twitch, allowing for two-way chat plus adds dice rolling requests, a tabbed chat window, a separate dice engine for just for viewers, event handling and several moderation commands directly into Foundry itself, bringing your streamed game to the next level of interactivity! Fork of Foundry Stream Module",
   "author": "CritsAndCode",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion" : "9",
 
@@ -42,7 +42,7 @@
   "media":[
    {
       "type": "cover",
-      "link": "https://raw.githubusercontent.com/TabletopsAndAnvils/Foundry-Stream-Module/main/img/fsm-cover.png"
+      "link": "https://raw.githubusercontent.com/CritsAndCode/Foundry-Stream-Module/main/img/fsm-cover.png"
    }
   ],
     "bugs": "https://github.com/CritsAndCode/Foundry-Stream-Module/issues",
