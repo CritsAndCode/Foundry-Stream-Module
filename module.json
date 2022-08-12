@@ -1,18 +1,9 @@
 {
   "name": "streamMod",
-  "title": "Foundry Stream Module",
-  "description": "Implements two-way communication between Foundry VTT and Twitch, allowing for two-way chat plus adds dice rolling requests, a tabbed chat window, a separate dice engine for just for viewers, event handling and several moderation commands directly into Foundry itself, bringing your streamed game to the next level of interactivity!",
-  "author": "MrUnderhill",
-  "authors": [
-  {
-    "name": "MrUnderhill",
-    "url": "https://www.patreon.com/tabletopsandanvils",
-    "email": "mr_underhill@icloud.com",
-    "discord": "MrUnderhill#4707",
-    "patreon": "TabletopsAndAnvils"
-  }
-  ],
-  "version": "0.3.0",
+  "title": "Skelton's Foundry Stream Module",
+  "description": "Implements two-way communication between Foundry VTT and Twitch, allowing for two-way chat plus adds dice rolling requests, a tabbed chat window, a separate dice engine for just for viewers, event handling and several moderation commands directly into Foundry itself, bringing your streamed game to the next level of interactivity! Fork of Foundry Stream Module",
+  "author": "CritsAndCode",
+  "version": "0.3.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion" : "9",
 
@@ -45,7 +36,7 @@
     {
       "name": "_chatcommands",
       "type": "module",
-      "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.2.0/module.json"
+      "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.4.0/module.json"
     }
   ],
   "media":[
@@ -54,10 +45,10 @@
       "link": "https://raw.githubusercontent.com/TabletopsAndAnvils/Foundry-Stream-Module/main/img/fsm-cover.png"
    }
   ],
-    "bugs": "https://github.com/TabletopsAndAnvils/Foundry-Stream-Module/issues",
+    "bugs": "https://github.com/CritsAndCode/Foundry-Stream-Module/issues",
     "allowBugReporter": true,
-    "url": "https://github.com/TabletopsAndAnvils/Foundry-Stream-Module",
+    "url": "https://github.com/CritsAndCode/Foundry-Stream-Module",
 
-    "manifest": "https://raw.githubusercontent.com/TabletopsAndAnvils/Foundry-Stream-Module/main/module.json",
-    "download": "https://github.com/TabletopsAndAnvils/Foundry-Stream-Module/archive/0.3.0.zip"
+    "manifest": "https://raw.githubusercontent.com/CritsAndCode/Foundry-Stream-Module/main/module.json",
+    "download": "https://github.com/TabletopsAndAnvils/CritsAndCode/archive/0.3.1.zip"
   }
